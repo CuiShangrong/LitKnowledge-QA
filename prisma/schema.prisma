@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Paper {
+  id               String   @id @default(cuid())
+  title            String   @unique
+  authors          String?
+  year             Int?
+  venue            String?
+  url              String?
+  doi              String?
+  field            String?
+  paperType        String?
+  topics           String?
+  tags             String?
+  abstract         String?
+  researchQuestion String?
+  coreArgument     String?
+  methodSummary    String?
+  evidenceSource   String?
+  sourceSummary    String?
+  contribution     String?
+  limitations      String?
+  datasets         String?
+  codeUrl          String?
+  notes            String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}

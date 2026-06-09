@@ -1,0 +1,102 @@
+{
+  "Layout": {
+    "home": "Home",
+    "papers": "Papers",
+    "timeline": "Timeline",
+    "addPaper": "Add Paper"
+  },
+  "HomePage": {
+    "eyebrow": "Literature folder QA system",
+    "description": "A local literature management and QA system for multidisciplinary papers. The current phase supports basic literature CRUD for organizing papers across fields and paper types.",
+    "papers": "Papers",
+    "addPaper": "Add Paper",
+    "timeline": "Timeline",
+    "currentEntries": "Current Entries",
+    "papersDescription": "Browse the local literature folder and open each paper detail page.",
+    "addPaperDescription": "Add paper metadata, research question, argument, evidence, and notes.",
+    "timelineDescription": "Review saved literature grouped by year.",
+    "phaseScope": "Phase 1.5 Scope",
+    "features": [
+      "Manage papers and literature notes across disciplines",
+      "Record research questions, core arguments, methods, evidence, and limitations",
+      "Browse saved literature by list or timeline",
+      "Prepare a clean foundation for future source-grounded QA"
+    ]
+  },
+  "PapersPage": {
+    "title": "Papers",
+    "description": "Browse papers and literature sources in the local folder.",
+    "addPaper": "Add Paper",
+    "emptyTitle": "No papers yet",
+    "emptyDescription": "Seed the database or add your first literature item manually."
+  },
+  "NewPaperPage": {
+    "back": "Back to papers",
+    "title": "Add Paper",
+    "description": "Manually add paper metadata and source-aware reading notes for LitFolder QA."
+  },
+  "PaperForm": {
+    "intro": "Add a paper or research source manually. Type examples: empirical, theoretical, survey, humanities, dataset, benchmark, system, review.",
+    "title": "Title",
+    "authors": "Authors",
+    "year": "Year",
+    "venue": "Venue",
+    "url": "URL",
+    "field": "Field",
+    "paperType": "Paper Type",
+    "topics": "Topics",
+    "tags": "Tags",
+    "abstract": "Abstract",
+    "researchQuestion": "Research Question",
+    "coreArgument": "Core Argument",
+    "methodSummary": "Method Summary",
+    "evidenceSource": "Evidence Source",
+    "sourceSummary": "Source Summary",
+    "contribution": "Contribution",
+    "limitations": "Limitations",
+    "notes": "Notes",
+    "saving": "Saving...",
+    "save": "Save Paper",
+    "titleRequired": "Title is required."
+  },
+  "PaperCard": {
+    "unknownAuthors": "Unknown authors",
+    "unknownYear": "Unknown year",
+    "unknownVenue": "Unknown venue"
+  },
+  "PaperDetailPage": {
+    "back": "Back to papers",
+    "unknownAuthors": "Unknown authors",
+    "unknownYear": "Unknown year",
+    "unknownVenue": "Unknown venue",
+    "paperUrl": "Paper URL",
+    "paperType": "Paper type",
+    "codeUrl": "Code URL",
+    "datasets": "Datasets",
+    "notSpecified": "Not specified",
+    "abstract": "Abstract",
+    "researchQuestion": "Research Question",
+    "coreArgument": "Core Argument",
+    "methodSummary": "Method Summary",
+    "evidenceSource": "Evidence Source",
+    "sourceSummary": "Source Summary",
+    "contribution": "Contribution",
+    "limitations": "Limitations",
+    "notes": "Notes"
+  },
+  "TimelinePage": {
+    "title": "Timeline",
+    "description": "Saved literature grouped by publication year.",
+    "emptyTitle": "No timeline data",
+    "emptyDescription": "Seed the database or add papers to build the timeline.",
+    "addPaper": "Add Paper",
+    "unknownYear": "Unknown year",
+    "unknownVenue": "Unknown venue",
+    "unknownField": "Unknown field"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The requested page or paper does not exist.",
+    "back": "Back to Papers"
+  }
+}

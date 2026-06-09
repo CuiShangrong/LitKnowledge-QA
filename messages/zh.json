@@ -1,0 +1,102 @@
+{
+  "Layout": {
+    "home": "首页",
+    "papers": "论文",
+    "timeline": "时间线",
+    "addPaper": "新增论文"
+  },
+  "HomePage": {
+    "eyebrow": "文献资料夹问答系统",
+    "description": "面向多学科论文的本地文献整理与问答系统。当前阶段已实现基础文献 CRUD，用于整理不同领域、不同类型的论文资料。",
+    "papers": "论文",
+    "addPaper": "新增论文",
+    "timeline": "时间线",
+    "currentEntries": "当前入口",
+    "papersDescription": "浏览本地文献资料夹，并打开每篇论文的详情页。",
+    "addPaperDescription": "添加论文 metadata、研究问题、核心论点、证据和笔记。",
+    "timelineDescription": "按年份查看已保存的文献。",
+    "phaseScope": "Phase 1.5 范围",
+    "features": [
+      "管理跨学科论文和文献笔记",
+      "记录研究问题、核心论点、方法、证据和局限",
+      "通过列表或时间线浏览已保存文献",
+      "为后续基于来源的问答打下清晰基础"
+    ]
+  },
+  "PapersPage": {
+    "title": "论文",
+    "description": "浏览本地文献资料夹中的论文和研究资料。",
+    "addPaper": "新增论文",
+    "emptyTitle": "还没有论文",
+    "emptyDescription": "导入示例数据，或手动新增第一篇文献。"
+  },
+  "NewPaperPage": {
+    "back": "返回论文列表",
+    "title": "新增论文",
+    "description": "手动添加论文 metadata 和带来源意识的阅读笔记。"
+  },
+  "PaperForm": {
+    "intro": "添加一篇论文或研究资料。类型示例：实证研究、理论论文、综述、人文学科、数据集、benchmark、系统论文、review。",
+    "title": "标题",
+    "authors": "作者",
+    "year": "年份",
+    "venue": "会议 / 期刊",
+    "url": "链接",
+    "field": "领域",
+    "paperType": "论文类型",
+    "topics": "主题",
+    "tags": "标签",
+    "abstract": "摘要",
+    "researchQuestion": "研究问题",
+    "coreArgument": "核心论点",
+    "methodSummary": "方法概述",
+    "evidenceSource": "证据来源",
+    "sourceSummary": "来源摘要",
+    "contribution": "贡献",
+    "limitations": "局限",
+    "notes": "笔记",
+    "saving": "保存中...",
+    "save": "保存论文",
+    "titleRequired": "标题为必填项。"
+  },
+  "PaperCard": {
+    "unknownAuthors": "未知作者",
+    "unknownYear": "未知年份",
+    "unknownVenue": "未知会议 / 期刊"
+  },
+  "PaperDetailPage": {
+    "back": "返回论文列表",
+    "unknownAuthors": "未知作者",
+    "unknownYear": "未知年份",
+    "unknownVenue": "未知会议 / 期刊",
+    "paperUrl": "论文链接",
+    "paperType": "论文类型",
+    "codeUrl": "代码链接",
+    "datasets": "数据集",
+    "notSpecified": "未填写",
+    "abstract": "摘要",
+    "researchQuestion": "研究问题",
+    "coreArgument": "核心论点",
+    "methodSummary": "方法概述",
+    "evidenceSource": "证据来源",
+    "sourceSummary": "来源摘要",
+    "contribution": "贡献",
+    "limitations": "局限",
+    "notes": "笔记"
+  },
+  "TimelinePage": {
+    "title": "时间线",
+    "description": "按发表年份查看已保存的文献。",
+    "emptyTitle": "暂无时间线数据",
+    "emptyDescription": "导入示例数据或新增论文后，时间线会自动生成。",
+    "addPaper": "新增论文",
+    "unknownYear": "未知年份",
+    "unknownVenue": "未知会议 / 期刊",
+    "unknownField": "未知领域"
+  },
+  "NotFound": {
+    "title": "页面不存在",
+    "description": "请求的页面或论文不存在。",
+    "back": "返回论文列表"
+  }
+}
