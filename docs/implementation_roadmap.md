@@ -21,12 +21,12 @@
 
 目标：
 
-- 将项目更新为 LitFolder QA，并扩展为多学科文献资料夹定位。
+- 将项目更新为 LitKnowledge-QA，并扩展为多学科文献资料夹定位。
 
 要实现的功能：
 
 - 更新项目名称、README、docs 和页面文案。
-- package name 改为 `lit-folder-qa`。
+- package name 改为 `litknowledge-qa`。
 - Paper model 增加 `paperType`、`researchQuestion`、`coreArgument`、`evidenceSource`、`sourceSummary`。
 - 表单、详情页和 seed 数据支持新增字段。
 

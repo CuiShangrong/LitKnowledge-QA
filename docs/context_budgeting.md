@@ -1,6 +1,6 @@
 # Context Budgeting 策略规划
 
-当前 Phase 1.5 不实现 context budgeting。本文件记录 LitFolder QA 后续多文献问答和研究脉络整理时的上下文控制策略。
+当前 Phase 1.5 不实现 context budgeting。本文件记录 LitKnowledge-QA 后续多文献问答和研究脉络整理时的上下文控制策略。
 
 ## 为什么多文献检索会导致 context window 爆炸
 
@@ -12,7 +12,7 @@
 - LLM 难以追踪每个结论来自哪篇文献。
 - 回答容易产生无来源或混淆来源的陈述。
 
-LitFolder QA 后续应把 context budgeting 设计为 source-aware 流程。
+LitKnowledge-QA 后续应把 context budgeting 设计为 source-aware 流程。
 
 ## 检索结果如何按 paper 聚合
 

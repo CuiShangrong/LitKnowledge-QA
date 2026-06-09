@@ -4,7 +4,7 @@
 
 学生和研究者经常需要整理来自不同学科、不同类型的论文和研究资料。计算机科学论文可能强调方法、实验和 benchmark；社会科学论文可能强调研究问题、理论框架和证据来源；人文学科论文可能更重视核心论点、文本材料和解释路径。
 
-LitFolder QA（文献资料夹问答系统）希望把这些资料先整理成本地可维护的文献资料夹，再逐步扩展为基于来源的问答系统。
+LitKnowledge-QA（文献知识问答系统）希望把这些资料先整理成本地可维护的文献资料夹，再逐步扩展为基于来源的问答系统。
 
 ## 项目动机
 
@@ -36,9 +36,9 @@ LitFolder QA（文献资料夹问答系统）希望把这些资料先整理成�
 
 ## 和普通论文 Chatbot 的区别
 
-- 普通论文 Chatbot 通常以单个 PDF 为中心；LitFolder QA 以本地文献资料夹为中心。
-- 普通论文 Chatbot 常直接进入问答；LitFolder QA 先强调文献结构化整理和来源字段。
-- 普通论文 Chatbot 多面向理工论文；LitFolder QA 预留多学科论文类型。
-- 普通论文 Chatbot 常忽略来源可追踪性；LitFolder QA 后续问答会围绕 evidence source 和 source summary 展开。
+- 普通论文 Chatbot 通常以单个 PDF 为中心；LitKnowledge-QA 以本地文献资料夹为中心。
+- 普通论文 Chatbot 常直接进入问答；LitKnowledge-QA 先强调文献结构化整理和来源字段。
+- 普通论文 Chatbot 多面向理工论文；LitKnowledge-QA 预留多学科论文类型。
+- 普通论文 Chatbot 常忽略来源可追踪性；LitKnowledge-QA 后续问答会围绕 evidence source 和 source summary 展开。
 - Timeline 不再是唯一核心，而是后续研究脉络整理的一种视图。
 

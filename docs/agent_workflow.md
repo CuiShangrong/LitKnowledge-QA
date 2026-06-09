@@ -1,10 +1,10 @@
 # Research / QA Workflow 规划
 
-当前 Phase 1.5 不实现 Ask Agent。本文件描述后续 LitFolder QA 的来源问答工作流。
+当前 Phase 1.5 不实现 Ask Agent。本文件描述后续 LitKnowledge-QA 的来源问答工作流。
 
 ## 总体目标
 
-LitFolder QA 的问答应基于用户本地文献资料夹中的来源信息，而不是无依据生成。系统需要明确区分：
+LitKnowledge-QA 的问答应基于用户本地文献资料夹中的来源信息，而不是无依据生成。系统需要明确区分：
 
 - 文献中已有的内容。
 - 用户记录的结构化笔记。

@@ -1,6 +1,6 @@
 # Paper-aware Chunking 策略规划
 
-当前 Phase 1.5 不实现 chunking。本文件记录 LitFolder QA 后续处理论文文本时的策略。
+当前 Phase 1.5 不实现 chunking。本文件记录 LitKnowledge-QA 后续处理论文文本时的策略。
 
 ## 为什么普通 fixed-size chunking 不适合多学科文献
 
@@ -12,7 +12,7 @@
 - Survey / review 论文常按主题组织，固定切分会削弱主题边界。
 - Dataset / benchmark 论文需要保留数据构建、评测任务和局限说明。
 
-因此，LitFolder QA 后续应采用 paper-aware、section-aware 和 source-aware chunking。
+因此，LitKnowledge-QA 后续应采用 paper-aware、section-aware 和 source-aware chunking。
 
 ## Section-aware chunking
 
@@ -50,7 +50,7 @@
 
 ## 如何避免证据和解释被切开
 
-LitFolder QA 后续问答强调来源支持，因此 chunking 不只保护公式，也要保护证据上下文：
+LitKnowledge-QA 后续问答强调来源支持，因此 chunking 不只保护公式，也要保护证据上下文：
 
 - 实验结果应与指标说明保留在一起。
 - 访谈、档案、文本材料等证据来源应与解释段落保留在一起。

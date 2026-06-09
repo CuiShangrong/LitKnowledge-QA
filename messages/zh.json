@@ -6,7 +6,7 @@
     "addPaper": "新增论文"
   },
   "HomePage": {
-    "eyebrow": "文献资料夹问答系统",
+    "eyebrow": "文献知识问答系统",
     "description": "面向多学科论文的本地文献整理与问答系统。当前阶段已实现基础文献 CRUD，用于整理不同领域、不同类型的论文资料。",
     "papers": "论文",
     "addPaper": "新增论文",

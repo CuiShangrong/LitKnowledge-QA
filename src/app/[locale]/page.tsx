@@ -12,7 +12,7 @@ export default function HomePage() {
           {t("eyebrow")}
         </p>
         <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-slate-950">
-          LitFolder QA
+          LitKnowledge-QA
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">
           {t("description")}

@@ -2,7 +2,7 @@
 
 ## 系统整体架构
 
-LitFolder QA 采用单体 Next.js 应用架构。当前 Phase 1.5 聚焦本地文献资料夹和基础 CRUD，后续再加入问答、抽取、chunking 和检索。
+LitKnowledge-QA 采用单体 Next.js 应用架构。当前 Phase 1.5 聚焦本地文献资料夹和基础 CRUD，后续再加入问答、抽取、chunking 和检索。
 
 主要组成：
 

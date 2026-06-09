@@ -33,7 +33,7 @@
   "NewPaperPage": {
     "back": "Back to papers",
     "title": "Add Paper",
-    "description": "Manually add paper metadata and source-aware reading notes for LitFolder QA."
+    "description": "Manually add paper metadata and source-aware reading notes for LitKnowledge-QA."
   },
   "PaperForm": {
     "intro": "Add a paper or research source manually. Type examples: empirical, theoretical, survey, humanities, dataset, benchmark, system, review.",

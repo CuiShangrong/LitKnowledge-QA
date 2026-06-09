@@ -36,7 +36,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       <header className="border-b border-slate-200 bg-white">
         <nav className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
           <Link href="/" className="text-lg font-semibold text-slate-950">
-            LitFolder QA
+            LitKnowledge-QA
           </Link>
           <div className="flex flex-wrap gap-2">
             {navItems.map((item) => (
